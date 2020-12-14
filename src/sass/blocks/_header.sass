@@ -1,0 +1,50 @@
+.header
+            display: flex
+            justify-content: space-between
+            padding: 0 60px
+            min-height: 80px
+            background-color: $main-color
+            position: static
+            top: 0px
+            
+            
+            
+            
+.navbar
+        
+            &__btn
+                        display: none
+                        height: 40px
+                        width: 40px
+                        margin: 10px 0 
+                        z-index: 3
+                        position: relative
+    
+                        &:after
+                                    content: ''
+                                    height: 3px
+                                    width: 100%
+                                    background: #fff
+                                    position: absolute
+                                    left: 0
+                                    top: 10%
+                        &:before
+                                    content: ''
+                                    height: 3px
+                                    width: 100%
+                                    background: #fff
+                                    position: absolute
+                                    left: 0
+                                    top: 90%
+            &__line
+                        height: 3px
+                        width: 100%
+                        background: #fff
+                        position: absolute
+                        left: 0
+                        top: 50%
+                        
+                        
+.logo
+            &__img
+                        height: 70px
